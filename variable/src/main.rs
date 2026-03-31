@@ -34,11 +34,21 @@ fn main() {
     // println!("apples {apples}");
 
 
-    let apples: i32=10;
+    // let apples: i32=10;
 
-    let apples : bool =true;
+    // let apples : bool =true;
 
-    println!("apples {apples}");
+    // println!("apples {apples}");
 
+    // let c: char='r';
 
+    // let s : char='e';
+
+   let emtiaz:(i32,bool,f64) = (56,true,100.00);
+
+    let (x,y,z) =emtiaz;
+
+   println!("x is {x}");
+   println!("y is {y}");
+   println!("z is {z}");
 }
